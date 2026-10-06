@@ -1,4 +1,4 @@
-package com.example.todoservice.entitiy;
+package com.example.todoservice.entity;
 
 public enum Priority{
         LOW,

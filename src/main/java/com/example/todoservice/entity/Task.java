@@ -1,8 +1,7 @@
-package com.example.todoservice.entitiy;
+package com.example.todoservice.entity;
 
 
 import jakarta.persistence.*;
-import org.springframework.cglib.core.Local;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
