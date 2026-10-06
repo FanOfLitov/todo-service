@@ -16,11 +16,14 @@ public class UpdateTaskRequest {
 
     private Priority priority;
 
-    @FutureOrPresent(message="deadline cannot be in the past")
+    //@FutureOrPresent(message="deadline cannot be in the past")
     private LocalDate deadline;
 
     public UpdateTaskRequest(){
 
+    }
+    public String getTitle() {
+        return title;
     }
 
     public void setTitle(String title){
@@ -36,7 +39,7 @@ public class UpdateTaskRequest {
         this.description=description;
     }
 
-    public Priority getpPriority(){
+    public Priority getPriority(){
         return priority;
     }
     public void setPriority(Priority priority){
@@ -46,6 +49,7 @@ public class UpdateTaskRequest {
     public LocalDate getDeadline() {
         return deadline;
     }
+
 
     public void setDeadline(LocalDate deadline){
         this.deadline=deadline;

@@ -1,2 +1,8 @@
-package com.example.todoservice.exception;public class TaskNotFoundException {
+package com.example.todoservice.exception;
+
+public class TaskNotFoundException extends RuntimeException {
+
+    public TaskNotFoundException(Long id) {
+        super("Task with id " + id + " not found");
+    }
 }

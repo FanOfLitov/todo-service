@@ -51,4 +51,8 @@ public class CreateTaskRequest {
     public void setDeadline(LocalDate deadline){
         this.deadline=deadline;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }

@@ -56,7 +56,7 @@ public class Task {
     public String getTitle(){
         return title;
     }
-    public void setTitle(){
+    public void setTitle(String title){
         this.title=title;
     }
 
@@ -75,7 +75,7 @@ public class Task {
         return priority;
     }
 
-    public void setPriority(){
+    public void setPriority(Priority priority){
         this.priority=priority;
     }
 
