@@ -4,4 +4,4 @@ import com.example.todoservice.entity.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
-}
+} //базовый crud наследуется от jparepository
