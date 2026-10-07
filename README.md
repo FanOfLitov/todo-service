@@ -208,7 +208,7 @@ Database
 
 ## тесты
 
-Проект в�ключап�ет:
+Проект включает:
 
 - Unit tests for `TaskService`
 - Mockito-based repository mocks
